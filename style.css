@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 10rem;
+    text-align: center;
+    color: rgb(179, 131, 221);
+}
+
+.todo-wrap{
+    width: 400px;
+    box-shadow: 2px 3px 8px #aaaaaa;;
+}
+
+.todo-wrap input{
+    border: none;
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.todo-wrap input::placeholder{
+    color: #d5d5d5;
+}
+
+.todo-wrap input:focus{
+    outline-color: rgb(179, 131, 221);
+}
+
+.todo-wrap #todoList{
+    list-style-type: none;
+}
+
+.todo-wrap #todoList li{
+    border-top: 1px solid #e5e5e5;
+    padding: 12px 8px;
+    cursor: pointer;
+}
